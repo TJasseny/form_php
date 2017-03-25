@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <title>Hello world</title>
-<head>
+</head>
 
 <body>
 <h1>Hello world !</h1>
