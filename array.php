@@ -6,8 +6,6 @@ foreach ($moi as $label => $valeur)
     echo '<p>Votre ' . $label . '  est ' . $valeur . '!</p>';
 }
 ?>
-
-
     <?php
 // Fonctions permettant de faire des recherche da,s les tableaux afin de vérifié certaine chose.
 $coordonnees = array (
@@ -40,8 +38,7 @@ if (array_key_exists('pays', $coordonnees))
 
 
 ?>
-
-<?php
+        <?php
 
 $fruits = array ('Banane', 'Pomme', 'Poire', 'Cerise', 'Fraise', 'Framboise');
 
@@ -64,8 +61,7 @@ if (in_array('Cerise', $fruits))
 }
 
 ?>
-
-<?php
+            <?php
 
 $fruits = array ('Banane', 'Pomme', 'Poire', 'Cerise', 'Fraise', 'Framboise');
 
